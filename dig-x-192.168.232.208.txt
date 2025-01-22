@@ -2,19 +2,19 @@
 ; <<>> DiG 9.11.36-RedHat-9.11.36-16.el8_10.2 <<>> -x 192.168.232.208
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41744
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50632
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4000
+; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
 ;208.232.168.192.in-addr.arpa.	IN	PTR
 
-;; AUTHORITY SECTION:
-168.192.in-addr.arpa.	5	IN	SOA	prisoner.iana.org. hostmaster.root-servers.org. 1 604800 60 604800 604800
+;; ANSWER SECTION:
+208.232.168.192.in-addr.arpa. 0	IN	PTR	dlp.srv.localnet.
 
-;; Query time: 58 msec
-;; SERVER: 192.168.232.2#53(192.168.232.2)
-;; WHEN: Wed Jan 22 10:18:24 EST 2025
-;; MSG SIZE  rcvd: 134
+;; Query time: 0 msec
+;; SERVER: 192.168.232.208#53(192.168.232.208)
+;; WHEN: Wed Jan 22 10:47:19 EST 2025
+;; MSG SIZE  rcvd: 87
 
