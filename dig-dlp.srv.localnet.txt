@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.11.36-RedHat-9.11.36-16.el8_10.2 <<>> dlp.srv.localnet
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37320
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4000
+;; QUESTION SECTION:
+;dlp.srv.localnet.		IN	A
+
+;; AUTHORITY SECTION:
+.			5	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2025012200 1800 900 604800 86400
+
+;; Query time: 7 msec
+;; SERVER: 192.168.232.2#53(192.168.232.2)
+;; WHEN: Wed Jan 22 10:17:03 EST 2025
+;; MSG SIZE  rcvd: 120
+

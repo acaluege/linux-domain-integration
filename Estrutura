@@ -1,0 +1,15 @@
+linux-domain-integration/
+├── README.md
+├── setup/
+│   ├── samba-config.sh       # Script de configuração do Samba
+│   ├── dnsmasq-config.conf   # Configuração do DNSMasq
+│   └── ldif-scripts.ldif     # Configurações LDAP
+├── docs/
+│   ├── project-overview.md   # Visão geral do projeto
+│   └── diagrams.png          # Diagramas de arquitetura
+├── examples/
+│   ├── windows-join-domain.md # Passo a passo para adicionar um host Windows
+│   ├── linux-join-domain.md   # Passo a passo para adicionar um host Linux
+│   └── troubleshoot.md        # Solução de problemas comuns
+└── LICENSE
+
